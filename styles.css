@@ -1,0 +1,17 @@
+.iam-side {
+  box-shadow: 4px 0 20px 0px #d8d8d8;
+}
+
+.main-title {
+  border-bottom: 3px solid tomato;
+  padding-bottom: 10px;
+}
+
+.main-navbar a {
+  color: gray;
+  padding-left: 0;
+  padding-bottom: 5px;
+}
+.main-navbar a:hover {
+  color: #333;
+}
