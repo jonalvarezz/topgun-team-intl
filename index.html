@@ -39,29 +39,82 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
             </div>
-            <nav
-              class="navbar-collapse collapse flex-column main-navbar align-items-start"
-            >
-              <a class="nav-link" href="#">About me</a>
-              <a class="nav-link" href="#">More about me</a>
-              <a class="nav-link" href="#">Top 5 meals</a>
-              <a class="nav-link" href="#">Top 5 songs</a>
-              <a class="nav-link" href="#">You should...</a>
+            <nav class="">
+              <div
+                class="nav navbar-collapse collapse flex-column main-navbar align-items-start"
+                role="tablist"
+              >
+                <a
+                  class="nav-item nav-link active"
+                  data-toggle="tab"
+                  href="#about-me"
+                  role="tab"
+                  aria-controls="about-me"
+                  aria-selected="true"
+                  >About me</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  data-toggle="tab"
+                  href="#more-about-me"
+                  role="tab"
+                  aria-controls="more-about-me"
+                  aria-selected="false"
+                  >More about me</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  data-toggle="tab"
+                  href="#top-meals"
+                  role="tab"
+                  aria-controls="top-meals"
+                  aria-selected="false"
+                  >Top 5 meals</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  data-toggle="tab"
+                  href="#my-anthem"
+                  role="tab"
+                  aria-controls="my-anthem"
+                  aria-selected="false"
+                  >My Anthem</a
+                >
+                <a
+                  class="nav-item nav-link"
+                  data-toggle="tab"
+                  href="#you-should"
+                  role="tab"
+                  aria-controls="you-should"
+                  aria-selected="false"
+                  >You should watch...</a
+                >
+              </div>
             </nav>
           </section>
         </div>
         <section class="col-sm-8">
           <main
-            class="d-sm-flex justify-content-center align-items-center h-100 flex-column"
+            class="d-sm-flex justify-content-center align-items-center h-100 flex-column tab-content"
           >
-            <article class="py-5">
+            <article
+              class="py-5 tab-pane fade show active"
+              id="about-me"
+              role="tabpanel"
+              aria-labelledby="about-me-tab"
+            >
               <h2>About me</h2>
               <p>
                 I am a Colombian frontend developer, highly specialized in
                 creating JavaScript-based applications
               </p>
             </article>
-            <article class="py-5">
+            <article
+              class="py-5 tab-pane fade"
+              id="more-about-me"
+              role="tabpanel"
+              aria-label="more about me"
+            >
               <h2>More About me</h2>
               <p>
                 Expert building high scalable, testable, and maintainable web
@@ -79,7 +132,12 @@
                 valuable time with my family and friends.
               </p>
             </article>
-            <article class="py-5">
+            <article
+              class="py-5 tab-pane fade"
+              id="top-meals"
+              role="tabpanel"
+              aria-label="top meals"
+            >
               <h2>My Top 5 Meals</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

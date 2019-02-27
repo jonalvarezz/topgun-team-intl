@@ -16,6 +16,7 @@
 @media (min-width: 576px) {
   .iam-side {
     position: inherit;
+    min-height: 100vh;
   }
   .iam-side section {
     top: 50%;
