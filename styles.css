@@ -1,17 +1,30 @@
+/** NAVIGATION                       */
+/************************************/
 .iam-side {
   box-shadow: 4px 0 20px 0px #d8d8d8;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
 }
 
 .iam-side section {
   position: -webkit-sticky;
   position: sticky;
-  top: 50%;
-  transform: translateY(-50%);
+}
+@media (min-width: 576px) {
+  .iam-side {
+    position: inherit;
+  }
+  .iam-side section {
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .main-title {
   border-bottom: 3px solid tomato;
-  padding-bottom: 10px;
 }
 
 .main-navbar a {
@@ -23,6 +36,8 @@
   color: #333;
 }
 
+/** MAIN CONTENT                     */
+/************************************/
 main {
   padding: 8vw;
 }

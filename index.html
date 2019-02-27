@@ -17,12 +17,31 @@
     <div class="container-fluid">
       <div class="row">
         <div
-          class="col-sm d-sm-flex justify-content-center align-items-center flex-column iam-side"
+          class="col-12 col-sm d-sm-flex justify-content-center align-items-center flex-column iam-side"
         >
-          <section>
-            <p class="h1">Hello!</p>
-            <h1 class="font-weight-bolder main-title">I'm Jona</h1>
-            <nav class="nav flex-column main-navbar">
+          <section class="navbar-light navbar-expand-sm">
+            <div
+              class="main-title main-title d-flex d-block-sm justify-content-between flex-wrap align-items-center"
+            >
+              <div>
+                <p class="h2">Hello!</p>
+                <h1 class="h2 font-weight-bolder mb-1">I'm Jona</h1>
+              </div>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target=".main-navbar"
+                aria-controls="main-navbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <nav
+              class="navbar-collapse collapse flex-column main-navbar align-items-start"
+            >
               <a class="nav-link" href="#">About me</a>
               <a class="nav-link" href="#">More about me</a>
               <a class="nav-link" href="#">Top 5 meals</a>
