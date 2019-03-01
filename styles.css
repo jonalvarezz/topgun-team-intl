@@ -19,6 +19,10 @@
     min-height: 100vh;
   }
 }
+
+.iam-side figure img {
+  width: 100px;
+  border-radius: 50px;
 }
 
 .main-title {
