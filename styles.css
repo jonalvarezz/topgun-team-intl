@@ -18,10 +18,7 @@
     position: inherit;
     min-height: 100vh;
   }
-  .iam-side section {
-    top: 50%;
-    transform: translateY(-50%);
-  }
+}
 }
 
 .main-title {
