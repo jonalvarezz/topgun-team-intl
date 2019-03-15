@@ -72,20 +72,20 @@
                 <a
                   class="nav-item nav-link"
                   data-toggle="tab"
-                  href="#top-meals"
+                  href="#focused-on"
                   role="tab"
-                  aria-controls="top-meals"
+                  aria-controls="focused-on"
                   aria-selected="false"
                   >I'm focused on..</a
                 >
                 <a
                   class="nav-item nav-link"
                   data-toggle="tab"
-                  href="#my-anthem"
+                  href="#top-songs"
                   role="tab"
-                  aria-controls="my-anthem"
+                  aria-controls="top-songs"
                   aria-selected="false"
-                  >My Anthem</a
+                  >Top Songs</a
                 >
                 <a
                   class="nav-item nav-link"
@@ -141,11 +141,46 @@
             </article>
             <article
               class="py-5 tab-pane fade"
-              id="top-meals"
+              id="focused-on"
+              role="tabpanel"
+              aria-label="I am focused on"
+            >
+              <h2>I am focused on</h2>
+              <p>This is what I am doing right now...</p>
+              <ul>
+                <li>👨‍🏫 Teaching on Team International's TopGun Lab.</li>
+                <li>🚀 Working with ON24 in a React/Redux app.</li>
+                <li>🏋️‍ Excercising 4 times a week.</li>
+                <li>🥗 Eating as clean as posible.</li>
+              </ul>
+            </article>
+            <article
+              class="py-5 tab-pane fade"
+              id="top-songs"
+              role="tabpanel"
+              aria-label="Top songs"
+            >
+              <h2>Top Songs</h2>
+              <p class="">
+                These are some of songs I listen the most! I find the game's
+                music quite perfect when I need to focus in something (when
+                coding); and the other songs, are songs that I've listened for a
+                long time ago, like my anthems.
+              </p>
+              <div class="text-center"></div>
+              <p class="text-center mt-2">
+                <button type="button" class="btn btn-primary">
+                  Next Video
+                </button>
+              </p>
+            </article>
+            <article
+              class="py-5 tab-pane fade"
+              id="you-should"
               role="tabpanel"
               aria-label="top meals"
             >
-              <h2>My Top 5 Meals</h2>
+              <h2>You should watch...</h2>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Voluptas placeat eaque possimus, impedit fugit excepturi
@@ -172,5 +207,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="scripts/main.js"></script>
   </body>
 </html>
