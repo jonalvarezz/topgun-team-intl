@@ -28,21 +28,69 @@
           </figcaption>
         </figure>
         <nav>
-          <a class="d-block py-1">About me</a>
-          <a class="d-block py-1">Top 5 meals</a>
-          <a class="d-block py-1">Top 5 songs</a>
-          <a class="d-block py-1">You should...</a>
+          <div class="nav" id="nav-tab" role="tablist">
+            <a
+              class="nav-item nav-link active"
+              id="nav-about-me-tab"
+              data-toggle="tab"
+              href="#nav-about-me"
+              role="tab"
+              aria-controls="nav-about-me"
+              aria-selected="true"
+              >About me</a
+            >
+            <a
+              class="nav-item nav-link"
+              id="nav-more-about-tab"
+              data-toggle="tab"
+              href="#nav-more-about"
+              role="tab"
+              aria-controls="nav-more-about"
+              aria-selected="false"
+              >More About Me</a
+            >
+            <a
+              class="nav-item nav-link"
+              id="nav-focused-on-tab"
+              data-toggle="tab"
+              href="#nav-focused-on"
+              role="tab"
+              aria-controls="nav-focused-on"
+              aria-selected="false"
+              >I'm focused on..</a
+            >
+            <a
+              class="nav-item nav-link"
+              id="you-should-tab"
+              data-toggle="tab"
+              href="#you-should"
+              role="tab"
+              aria-controls="you-should"
+              aria-selected="false"
+              >You should...</a
+            >
+          </div>
         </nav>
       </div>
-      <main>
-        <article>
+      <main class="tab-content" id="nav-tabContent">
+        <article
+          class="tab-pane fade show active"
+          id="nav-about-me"
+          role="tabpanel"
+          aria-labelledby="nav-about-me-tab"
+        >
           <h2>About me</h2>
           <p>
             I am a Colombian frontend developer, highly specialized in creating
             JavaScript-based applications
           </p>
         </article>
-        <article>
+        <article
+          class="tab-pane fade"
+          id="nav-more-about"
+          role="tabpanel"
+          aria-labelledby="nav-more-about-tab"
+        >
           <h2>More About me</h2>
           <p>
             Expert building high scalable, testable, and maintainable web
@@ -60,7 +108,12 @@
             my family and friends.
           </p>
         </article>
-        <article>
+        <article
+          class="tab-pane fade"
+          id="nav-focused-on"
+          role="tabpanel"
+          aria-labelledby="nav-focused-on-tab"
+        >
           <h2>I am focused on</h2>
           <p>This is what I am doing right now...</p>
           <ul>
