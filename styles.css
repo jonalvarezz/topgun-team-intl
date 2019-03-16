@@ -1,45 +1,9 @@
-/** NAVIGATION                       */
-/************************************/
-.iam-side {
-  box-shadow: 4px 0 20px 0px #d8d8d8;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 10;
+body,
+html,
+.page-container {
+  height: 100%;
 }
 
-.iam-side section {
-  position: -webkit-sticky;
-  position: sticky;
-}
-@media (min-width: 576px) {
-  .iam-side {
-    position: inherit;
-    min-height: 100vh;
-  }
-}
-
-.iam-side figure img {
-  width: 100px;
-  border-radius: 50px;
-}
-
-.main-title {
-  border-bottom: 3px solid tomato;
-}
-
-.main-navbar a {
-  color: gray;
-  padding-left: 0;
-  padding-bottom: 5px;
-}
-.main-navbar a:hover {
-  color: #333;
-}
-
-/** MAIN CONTENT                     */
-/************************************/
 main {
   padding: 8vw;
 }

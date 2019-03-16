@@ -14,7 +14,7 @@
     <title>Hola! Soy Jonathan Álvarez González</title>
   </head>
   <body>
-    <div class="d-flex">
+    <div class="d-flex page-container">
       <div class="p-5 d-flex flex-column justify-content-center">
         <figure>
           <img
@@ -28,7 +28,7 @@
           </figcaption>
         </figure>
         <nav>
-          <div class="nav" id="nav-tab" role="tablist">
+          <div class="nav d-flex flex-column" id="nav-tab" role="tablist">
             <a
               class="nav-item nav-link active"
               id="nav-about-me-tab"
@@ -72,7 +72,10 @@
           </div>
         </nav>
       </div>
-      <main class="tab-content" id="nav-tabContent">
+      <main
+        class="tab-content d-flex flex-column justify-content-center"
+        id="nav-tabContent"
+      >
         <article
           class="tab-pane fade show active"
           id="nav-about-me"
