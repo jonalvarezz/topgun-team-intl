@@ -61,6 +61,15 @@
             >
             <a
               class="nav-item nav-link"
+              data-toggle="tab"
+              href="#top-songs"
+              role="tab"
+              aria-controls="top-songs"
+              aria-selected="false"
+              >Top Songs</a
+            >
+            <a
+              class="nav-item nav-link"
               id="you-should-tab"
               data-toggle="tab"
               href="#you-should"
@@ -126,6 +135,26 @@
             <li>🥗 Eating as clean as posible.</li>
           </ul>
         </article>
+        <article
+          class="py-5 tab-pane fade"
+          id="top-songs"
+          role="tabpanel"
+          aria-label="Top songs"
+        >
+          <h2>Top Songs</h2>
+          <p class="">
+            These are some of songs I listen the most! I find the game's music
+            quite perfect when I need to focus in something (when coding); and
+            the other songs, are songs that I've listened for a long time ago,
+            like my anthems.
+          </p>
+          <div class="text-center"></div>
+          <p class="text-center mt-2">
+            <button type="button" class="btn btn-primary">
+              Next Video
+            </button>
+          </p>
+        </article>
       </main>
     </div>
     <script
@@ -143,5 +172,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="scripts/main.js"></script>
   </body>
 </html>
