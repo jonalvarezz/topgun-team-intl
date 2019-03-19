@@ -1,3 +1,30 @@
+/**
+ * Aside (left)
+ * --------------------------
+ */
+aside {
+  background-color: #333;
+  padding: 5.5rem;
+}
+aside figcaption.border-bottom {
+  border-bottom-width: 3px !important;
+}
+aside img {
+  width: 130px;
+}
+aside .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  color: whitesmoke;
+}
+aside .nav-link:hover {
+  color: tomato;
+}
+
+/**
+ * Main (right)
+ * --------------------------
+ */
 main {
   padding: 8vw;
 }
