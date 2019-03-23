@@ -1,45 +1,30 @@
-/** NAVIGATION                       */
-/************************************/
-.iam-side {
-  box-shadow: 4px 0 20px 0px #d8d8d8;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 10;
+/**
+ * Aside (left)
+ * --------------------------
+ */
+aside {
+  background-color: #333;
+  padding: 5.5rem;
 }
-
-.iam-side section {
-  position: -webkit-sticky;
-  position: sticky;
+aside figcaption.border-bottom {
+  border-bottom-width: 3px !important;
 }
-@media (min-width: 576px) {
-  .iam-side {
-    position: inherit;
-    min-height: 100vh;
-  }
+aside img {
+  width: 130px;
 }
-
-.iam-side figure img {
-  width: 100px;
-  border-radius: 50px;
-}
-
-.main-title {
-  border-bottom: 3px solid tomato;
-}
-
-.main-navbar a {
-  color: gray;
+aside .nav-link {
   padding-left: 0;
-  padding-bottom: 5px;
+  padding-right: 0;
+  color: whitesmoke;
 }
-.main-navbar a:hover {
-  color: #333;
+aside .nav-link:hover {
+  color: tomato;
 }
 
-/** MAIN CONTENT                     */
-/************************************/
+/**
+ * Main (right)
+ * --------------------------
+ */
 main {
   padding: 8vw;
 }
